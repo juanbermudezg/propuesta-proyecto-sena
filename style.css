@@ -1,0 +1,125 @@
+body{
+    overflow: scroll;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    
+    text-align: center;
+    background: url(fondo2.avif);
+    
+}
+.logoSena{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 120px;
+    height: 120px;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    height: 120px;
+}
+.resumen{
+    background: linear-gradient(#D3D4D9,#FFF9FB);
+    padding-top: 1.25em;
+    padding-bottom: 1em;
+}
+strong{
+    font-weight: bold;
+}
+em{
+    font-style: italic;
+}
+main h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+main p{
+    font-size: 1.5em;
+    line-height: 200%;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+}
+.objetivoGeneral{
+    background-color: #FFF9FB;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 200%;
+}
+.objetivoGeneral h1, h2{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.objetivos{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   background: linear-gradient(#FFF9FB, white);
+}
+.tituloObjetivo{
+    width: 90%;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+}
+.objetivo{
+    display: flex;
+    height: 75px;
+    width: 30%;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.justificacion{
+    padding-top: 1.5em;
+    line-height: 200%;
+    text-align: center;
+}
+.justificacion p:first-child, .alcance p{
+    
+    padding-bottom: 1.145em;
+}
+.alcance h1{
+    margin-bottom: 1.5em;
+}
+.Contacto{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   text-align: center;
+   padding-top: 1.5em;
+}
+.con{
+    flex-wrap: wrap;
+    line-height: 125%;
+    height: 130px;
+    width: 20%;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;;
+    border-radius: 15px;
+    font-size: 20px;
+}
+footer{
+    margin-top:30px;
+    text-align: center;
+    background: url(fondo.avif);
+    padding: 40px;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin: 20px;
+}
